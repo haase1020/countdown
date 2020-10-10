@@ -8,10 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
 <!-- Video Background -->
 <video class="video-background" loop muted autoplay>
-    <source src="forest.mp4" ></video>
+    <source src="forest.mp4"></source>
 </video>
+<div class="video-overlay"></div>
+<!-- container -->
+<div class="container">
+    <!-- input -->
+    <div class="input-container" id="input-container">
+        <h1>Create a Countdown Timer</h1>
+        <form class="form" id="countdownForm">
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="What are you counting down to?">
+            <label for="date-picker">Select Date</label>
+            <input type="date" id="date-picker">
+            <button type="submit">Submit</button>
+        </form> 
+    </div>
+
+</div>
 
     <!-- Script -->
     <script src="script.js"></script>
