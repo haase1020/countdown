@@ -1,0 +1,2 @@
+# countdown
+Vanilla JavaScript project
